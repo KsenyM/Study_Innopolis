@@ -9,12 +9,10 @@ LoginPopup.addEventListener("click", modalClose);
 
 function showPopup(evt) {
     evt.preventDefault();
-    document.body.style.position = 'fixed';
     LoginPopup.classList.remove("visuallyhidden");
 }
 
 function modalClose() {
-    document.body.style.position = 'fixed';
     LoginPopup.classList.add("visuallyhidden");
     console.log('closed');
 }
