@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Студенты</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/login-popup.js"></script>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="site-logo" src="../img/action_avengers_book_comic_marvel_movie_icon_183140.svg" alt="Логотип">
+        <ul class="site-menu">
+            <li><a class="menu-link" href="../index.html">Главная</a></li>
+            <li><a class="menu-link-active" href="#">Студенты</a></li>
+            <li><a class="menu-link" href="about.html">О курсе</a></li>
+            <li><a class="menu-link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <a href="#" class="btn-text">Войти</a>
+    </header>
+
+    <!-- Form -->
+    <div class="background-popup visuallyhidden">
+        <div class="login-popup">
+            <div class="heading-group">
+                <h2 class="login-heading">Войти на сайт</h2>
+                <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path class="st0" d="M19.5,18.5L13.1,12l6.5-6.5c0.3-0.3,0.3-0.8,0-1.1s-0.8-0.3-1.1,0L12,10.9L5.5,4.5c-0.3-0.3-0.8-0.3-1.1,0
+        s-0.3,0.8,0,1.1l6.5,6.5l-6.5,6.5c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2l6.5-6.5l6.5,6.5
+        c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C19.8,19.2,19.8,18.8,19.5,18.5z" />
+                </svg>
+            </div>
+            <form class="login-form" action="http://localhost:8000/code.php" method="get">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                <input class="login-input" placeholder="Пароль" required="">
+                <button class="btn-text" type="submit">Войти</button>
+            </form>
+        </div>
+    </div>
+
+    <main class="main-students-page">
+        <h1 class="main-heading">Студенты потока 08.02.2020 👧👦</h1>
+        <div class="students">
+            <div class="student">
+                <img src="../img/1.jpg" class="students-photo" alt="Фотогорафия Ивана Петрова">
+                <span>Иван Петров</span>
+            </div>
+            <div class="student">
+                <div class="student-tag">Новичок</div>
+                <img src="../img/2.jpg" class="students-photo" alt="Фотогорафия Ирины Сонышкиной">
+                <span>Ирина Солнышкина</span>
+            </div>
+            <div class="student">
+                <img src="../img/3.jpg" class="students-photo" alt="Фотогорафия Павла Ларионова">
+                <span>Павел Ларионов</span>
+            </div>
+            <div class="student">
+                <img src="../img/4.jpg" class="students-photo" alt="Фотогорафия Дарьи Малышевой и это нормально">
+                <span>Дарья Малышева</span>
+            </div>
+            <div class="student">
+                <img src="../img/5.jpg" class="students-photo" alt="Фотогорафия Виктора Красилина">
+                <span>Виктор Красилин</span>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="copyright">2022 &copy; <a class="inoop-link" href="https://innopolis.university/">Учебный центр</a>
+        </p>
+    </footer>
+</body>
+
+</html>

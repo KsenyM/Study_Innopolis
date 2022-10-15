@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Сайт группы</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <script defer src="js/login-popup.js"></script>
+</head>
+
+<body class="page">
+  <link rel="stylesheet" href="css/style.css">
+  <header class="header">
+    <img class="site-logo" src="img/action_avengers_book_comic_marvel_movie_icon_183140.svg" alt="Логотип">
+    <ul class="site-menu">
+      <li><a class="menu-link-active" href="#">Главная</a></li>
+      <li><a class="menu-link" href="pages/students.html">Студенты</a></li>
+      <li><a class="menu-link" href="pages/about.html">О курсе</a></li>
+      <li><a class="menu-link" href="pages/contacts.html">Контакты</a></li>
+    </ul>
+    <a href="#" class="btn-text inactive-link">Войти</a>
+  </header>
+
+  <!-- Form -->
+  <div class="background-popup visuallyhidden">
+    <div class="login-popup">
+      <div class="heading-group">
+        <h2 class="login-heading">Войти на сайт</h2>
+        <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path class="st0" d="M19.5,18.5L13.1,12l6.5-6.5c0.3-0.3,0.3-0.8,0-1.1s-0.8-0.3-1.1,0L12,10.9L5.5,4.5c-0.3-0.3-0.8-0.3-1.1,0
+        s-0.3,0.8,0,1.1l6.5,6.5l-6.5,6.5c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2l6.5-6.5l6.5,6.5
+        c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C19.8,19.2,19.8,18.8,19.5,18.5z" />
+        </svg>
+      </div>
+      <form class="login-form" action="http://localhost:8000/code.php" method="get">
+        <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+        <input class="login-input" placeholder="Пароль" required="">
+        <button class="btn-text" type="submit">Войти</button>
+      </form>
+    </div>
+  </div>
+
+  <main class="main">
+    <h1 class="main-heading">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+    <img class="class-photo" src="img/class-2.jpg" alt="Фотография компьютерного класса">
+    <div class="text-two-colomn">
+      <div>
+        <h2>Для кого этот курс</h2>
+        <p class="intro-text">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В
+          начале курса вы узнаете о том, как устроен Интернет и веб-сайты.
+          Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и
+          файлы, устанавливать программы).</p>
+        <h2>Чему вы научитесь</h2>
+        <p class="intro-text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы
+          языков <strong>HTML</strong>, <strong>CSS</strong> и немного <strong>JavaScript</strong>. Мы вместе сверстаем
+          сайт нашей группы по этому макету. А затем вы <em class="accent-text">сами</em> сверстаете свои личные
+          странички в качестве домашнего задания и мы выложим все это на сервер.</p>
+      </div>
+
+      <!-- Quote -->
+      <aside class="quote-block-for-desktop">
+        <div class="quote-block-p1">
+          <blockquote class="quote-text-1">
+            &#8220;</blockquote>
+          <blockquote class="quote-text-2">Учимся вместе!</blockquote>
+        </div>
+        <blockquote class="quote-text-1">&#8221;</blockquote>
+      </aside>
+    </div>
+    <aside class="quote-block-for-mobile">
+      <div class="quote-block-p1">
+        <blockquote class="quote-text-1">
+          &#8220;</blockquote>
+        <blockquote class="quote-text-2">Учимся вместе!</blockquote>
+      </div>
+      <blockquote class="quote-text-1">&#8221;</blockquote>
+    </aside>
+  </main>
+
+  <footer>
+    <p class="copyright">2022 &copy; <a class="inoop-link" href="https://innopolis.university/">Учебный центр</a> </p>
+  </footer>
+</body>
+
+</html>
