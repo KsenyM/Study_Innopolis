@@ -28,25 +28,53 @@
     </header>
 
     <!-- Form -->
-    <div class="background-popup visuallyhidden">
-        <div class="login-popup">
-            <div class="heading-group">
-                <h2 class="login-heading">Войти на сайт</h2>
-                <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path class="st0" d="M19.5,18.5L13.1,12l6.5-6.5c0.3-0.3,0.3-0.8,0-1.1s-0.8-0.3-1.1,0L12,10.9L5.5,4.5c-0.3-0.3-0.8-0.3-1.1,0
+    <div class="login-popup visuallyhidden">
+        <div class="heading-group">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path class="st0" d="M19.5,18.5L13.1,12l6.5-6.5c0.3-0.3,0.3-0.8,0-1.1s-0.8-0.3-1.1,0L12,10.9L5.5,4.5c-0.3-0.3-0.8-0.3-1.1,0
         s-0.3,0.8,0,1.1l6.5,6.5l-6.5,6.5c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2l6.5-6.5l6.5,6.5
         c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C19.8,19.2,19.8,18.8,19.5,18.5z" />
-                </svg>
-            </div>
-            <form class="login-form" action="http://localhost:8000/code.php" method="get">
-                <input class="login-input" name="login" type="text" placeholder="Логин" required="">
-                <input class="login-input" placeholder="Пароль" required="">
-                <button class="btn-text" type="submit">Войти</button>
-            </form>
+            </svg>
         </div>
+        <form class="login-form" action="http://localhost:8000/code.php" method="get">
+            <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+            <input class="login-input" placeholder="Пароль" required="">
+            <button class="btn-text" type="submit">Войти</button>
+        </form>
     </div>
+    <div class="background-popup visuallyhidden">
+    </div>
+    
+    <main class="contacts-page">
+        <h1 class="main-heading"> Как нас найти 🗺️️</h1>
+        <div class="maps" style="position:relative;overflow:hidden;"><a
+                href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
+                href="https://yandex.ru/maps/2/saint-petersburg/house/dvortsovaya_ploshchad_2/Z0kYdQZiQUQDQFtjfXV1cXxrZg==/?ll=30.312814%2C59.940082&utm_medium=mapframe&utm_source=maps&z=16.45"
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">Дворцовая площадь, 2 —
+                Яндекс Карты</a><iframe class="maps" src="https://yandex.ru/map-widget/v1/-/CCUZyIgihC" frameborder="1"
+                allowfullscreen="true" style="position:relative;"></iframe></div>
 
-    <main>
+        <h2>Наши контакты</h2>
+        <address>
+            <p> г. Санкт-Петербург, Дворцовая пл., 2, 190000
+            </p>
+            <a class="contact-text" href="tel:+7 (812) 555-55-55">
+                <?xml version="1.0" encoding="iso-8859-1"?>
+
+                <svg class="phone-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512">
+                    <path class="st1" d="M256,32c123.5,0,224,100.5,224,224S379.5,480,256,480S32,379.5,32,256S132.5,32,256,32 M256,0
+                    C114.6,0,0,114.6,0,256s114.6,256,256,256s256-114.6,256-256S397.4,0,256,0L256,0z M398.7,341.6l-1.4-4.4
+                    c-3.4-10.1-14.5-20.6-24.8-23.4l-37.8-10.3c-10.2-2.8-24.9,1-32.4,8.5l-13.7,13.7c-49.8-13.5-88.8-52.5-102.2-102.2l13.7-13.7
+                    c7.5-7.5,11.2-22.1,8.5-32.4l-10.3-37.8c-2.8-10.2-13.3-21.4-23.4-24.8l-4.3-1.4c-10.1-3.4-24.5,0-32,7.6L118,141.4
+                    c-3.7,3.6-6,14-6,14.1c-0.7,65.1,24.8,127.7,70.8,173.7c45.9,45.9,108.3,71.3,173.2,70.8c0.3,0,11.1-2.3,14.7-5.9l20.5-20.5
+                    C398.7,366.1,402.1,351.7,398.7,341.6z" />
+                </svg>
+                +7 (812) 555-55-55
+            </a>
+
     </main>
 
     <footer>

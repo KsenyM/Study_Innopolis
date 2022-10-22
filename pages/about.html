@@ -28,27 +28,32 @@
   </header>
 
   <!-- Form -->
-  <div class="background-popup visuallyhidden">
-    <div class="login-popup">
-      <div class="heading-group">
-        <h2 class="login-heading">Войти на сайт</h2>
-        <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path class="st0" d="M19.5,18.5L13.1,12l6.5-6.5c0.3-0.3,0.3-0.8,0-1.1s-0.8-0.3-1.1,0L12,10.9L5.5,4.5c-0.3-0.3-0.8-0.3-1.1,0
-  s-0.3,0.8,0,1.1l6.5,6.5l-6.5,6.5c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2l6.5-6.5l6.5,6.5
-  c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C19.8,19.2,19.8,18.8,19.5,18.5z" />
-        </svg>
-      </div>
-      <form class="login-form" action="http://localhost:8000/code.php" method="get">
-        <input class="login-input" name="login" type="text" placeholder="Логин" required="">
-        <input class="login-input" placeholder="Пароль" required="">
-        <button class="btn-text" type="submit">Войти</button>
-      </form>
+  <div class="login-popup visuallyhidden">
+    <div class="heading-group">
+      <h2 class="login-heading">Войти на сайт</h2>
+      <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path class="st0" d="M19.5,18.5L13.1,12l6.5-6.5c0.3-0.3,0.3-0.8,0-1.1s-0.8-0.3-1.1,0L12,10.9L5.5,4.5c-0.3-0.3-0.8-0.3-1.1,0
+        s-0.3,0.8,0,1.1l6.5,6.5l-6.5,6.5c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2l6.5-6.5l6.5,6.5
+        c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C19.8,19.2,19.8,18.8,19.5,18.5z" />
+      </svg>
     </div>
+    <form class="login-form" action="http://localhost:8000/code.php" method="get">
+      <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+      <input class="login-input" placeholder="Пароль" required="">
+      <button class="btn-text" type="submit">Войти</button>
+    </form>
+  </div>
+  <div class="background-popup visuallyhidden">
   </div>
 
-  <main>
+  <main class="about-page">
+    <h1 class="main-heading">О курсе📱</h1>
+    <h2>Посмотрите видео о нас</h2>
+    <div class="thumb-wrap">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xpmlt9j1fqU" frameborder="0"
+        allowfullscreen></iframe>
+    </div>
   </main>
-
   <footer>
     <p class="copyright">2022 &copy; <a class="inoop-link" href="https://innopolis.university/">Учебный центр</a>
     </p>

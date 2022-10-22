@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Студенты</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/login-popup.js"></script>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="site-logo" src="../img/action_avengers_book_comic_marvel_movie_icon_183140.svg" alt="Логотип">
+        <ul class="site-menu">
+            <li><a class="menu-link" href="../index.html">Главная</a></li>
+            <li><a class="menu-link" href="students.html">Студенты</a></li>
+            <li><a class="menu-link" href="about.html">О курсе</a></li>
+            <li><a class="menu-link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <a href="#" class="btn-text">Войти</a>
+    </header>
+
+    <!-- Form -->
+    <div class="login-popup visuallyhidden">
+        <div class="heading-group">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path class="st0" d="M19.5,18.5L13.1,12l6.5-6.5c0.3-0.3,0.3-0.8,0-1.1s-0.8-0.3-1.1,0L12,10.9L5.5,4.5c-0.3-0.3-0.8-0.3-1.1,0
+        s-0.3,0.8,0,1.1l6.5,6.5l-6.5,6.5c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2l6.5-6.5l6.5,6.5
+        c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C19.8,19.2,19.8,18.8,19.5,18.5z" />
+            </svg>
+        </div>
+        <form class="login-form" action="http://localhost:8000/code.php" method="get">
+            <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+            <input class="login-input" placeholder="Пароль" required="">
+            <button class="btn-text" type="submit">Войти</button>
+        </form>
+    </div>
+    <div class="background-popup visuallyhidden">
+    </div>
+
+    <main class="main-students-page">
+        <div class="bi">
+            <a href="students.html" class="button-back">Назад</a>
+            <h1 class="krasivo">Привет</h1>
+            <h2>Я продуктовый дизайнер и вот <a href=./http://ksmaksimova.tilda.ws> мое портфолио</a></h2>
+            <ol>
+                <li><a href="#part1">Часть 1</a></li>
+                <li><a href="#part2">Часть 2</a></li>
+                <li><a href="#part3">Часть 3</a></li>
+            </ol>
+        </div>
+        <p>Умею <q>Какая Ксюша молодец!</q></p>
+        <ul>
+            <li>Работать в <i>Фигме</i></li>
+            <li>Проектировать интерфейс</li>
+        </ul>
+        <h3 id="part1">Часть 1</h3>
+        <p>Тут должна была быть таблица, но я ее убрала</p>
+
+        <h3 id="part2">Часть 2</h3>
+        <img src="../img/me.jpeg" alt="Я" class="pic">
+
+        <form class="feedback-form" action="/my-handling-form-page" method="post">
+            <div class="inside-form">
+                <label class="form" for="name">Имя:</label>
+                <input class="form" type="text" placeholder="Введите имя" id="name" name="user_name">
+            </div>
+
+            <div class="inside-form">
+                <label class="form" for="mail">E-mail:</label>
+                <input class="form" type="email" id="mail" name="user_email">
+            </div>
+
+            <div>
+                <label class="form" for="msg">Сообщение: </label>
+                <textarea class="form" id="msg" name="user_message"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Отправить</button>
+            </div>
+
+        </form>
+        <h3 id="part3">Часть 3</h3>
+        <h1> Просто всякое с некрасивыми формами</h1>
+        <form class="feedback-form" action="r" method="get">
+            <label class="form" for="name">Что-то хорошее</label>
+            <input type="text" name="name" placeholder="очень хорошее">
+            <button type="submit">Отправить</button>
+        </form>
+        <fieldset>
+            <legend>Техника</legend>
+
+            <input type="radio" id="r1" name="us">
+            <label for="r1">Apple</label>
+
+            <input type="radio" id="r2" name="us2">
+            <label for="r2">Samsung</label>
+
+            <input type="radio" id="r3" name="us3">
+            <label for="r3">Huawei</label>
+        </fieldset>
+
+    </main>
+
+    <footer>
+        <p class="copyright">2022 &copy; <a class="inoop-link" href="https://innopolis.university/">Учебный центр</a>
+        </p>
+    </footer>
+</body>
+
+</html>
