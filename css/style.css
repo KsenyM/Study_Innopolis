@@ -12,7 +12,6 @@
 }
 
 
-
 /* Header */
 
 .header {
@@ -224,7 +223,7 @@ body {
 
     50% {
         transform: translateX(2px);
-        opacity: 100;
+        opacity: 1;
     }
 
     100% {
@@ -261,7 +260,7 @@ body {
 
     50% {
         transform: translateY(-5px);
-        opacity: 100;
+        opacity: 1;
     }
 
     100% {
@@ -328,7 +327,7 @@ body {
 }
 
 .student:hover img {
-    scale: 102%;
+    transform: scale(1, 2);
 }
 
 .student>span {
@@ -382,6 +381,7 @@ body {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
+    border: 1px;
     overflow: hidden;
 }
 
@@ -447,6 +447,10 @@ body {
     text-decoration-line: none;
 }
 
+.maps {
+    border: 1px;
+}
+
 
 /*  My Own Page */
 
@@ -508,7 +512,6 @@ textarea {
     font: 1em sans-serif;
     width: 300px;
     border: 1px solid #999;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -690,7 +693,7 @@ footer {
 
 .visuallyhidden {
     border: 0;
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     height: 1px;
     margin: -1px;
     overflow: hidden;
